@@ -42,3 +42,5 @@ if curl -Is http://localhost | head -1 | grep "200 OK"; then
 else
     echo "Not working as expected."
 fi
+
+0 0 * * * /home/iace/bin/StaticWeb.sh
